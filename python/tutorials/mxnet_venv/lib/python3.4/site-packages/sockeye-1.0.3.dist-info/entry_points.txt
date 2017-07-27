@@ -1,0 +1,6 @@
+[console_scripts]
+sockeye-average = sockeye.average:main
+sockeye-embeddings = sockeye.embeddings:main
+sockeye-train = sockeye.train:main
+sockeye-translate = sockeye.translate:main
+
