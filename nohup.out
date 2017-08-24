@@ -1,0 +1,126 @@
+[I 04:48:11.813 NotebookApp] The port 8888 is already in use, trying another port.
+[I 04:48:12.155 NotebookApp] Serving notebooks from local directory: /home/ubuntu/cyrusprojects
+[I 04:48:12.155 NotebookApp] 0 active kernels 
+[I 04:48:12.155 NotebookApp] The Jupyter Notebook is running at: http://localhost:8889/?token=c5563469b0b2c07a5387f4996131e4ef6c364c116b8753ff
+[I 04:48:12.155 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 04:48:12.155 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8889/?token=c5563469b0b2c07a5387f4996131e4ef6c364c116b8753ff
+[C 04:48:56.466 NotebookApp] received signal 15, stopping
+[I 04:48:56.467 NotebookApp] Shutting down kernels
+[I 04:49:19.621 NotebookApp] Serving notebooks from local directory: /home/ubuntu/cyrusprojects
+[I 04:49:19.621 NotebookApp] 0 active kernels 
+[I 04:49:19.621 NotebookApp] The Jupyter Notebook is running at: http://localhost:8888/?token=985d855b86bec82ce04751ba40770499527aa2297d46698c
+[I 04:49:19.621 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 04:49:19.621 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=985d855b86bec82ce04751ba40770499527aa2297d46698c
+[I 04:49:40.991 NotebookApp] 302 GET /?token=985d855b86bec82ce04751ba40770499527aa2297d46698c (127.0.0.1) 0.71ms
+[I 04:50:57.735 NotebookApp] Writing notebook-signing key to /home/ubuntu/.local/share/jupyter/notebook_secret
+[W 04:50:57.736 NotebookApp] Notebook mxnet-notebooks/python/outline.ipynb is not trusted
+[I 04:51:00.082 NotebookApp] Kernel started: 662d3677-71e8-4f4d-a245-1d95f4894786
+[W 04:51:06.735 NotebookApp] Notebook mxnet-notebooks/python/tutorials/mnist.ipynb is not trusted
+[I 04:51:08.049 NotebookApp] Kernel started: fd9877c6-cf12-4588-a803-7f76a4b28029
+[W 04:51:10.294 NotebookApp] Timeout waiting for kernel_info reply from 662d3677-71e8-4f4d-a245-1d95f4894786
+[W 04:51:20.709 NotebookApp] Timeout waiting for kernel_info reply from fd9877c6-cf12-4588-a803-7f76a4b28029
+[I 04:51:26.019 NotebookApp] Saving file at /mxnet-notebooks/python/tutorials/mnist.ipynb
+[I 04:52:07.221 NotebookApp] Adapting to protocol v5.1 for kernel 662d3677-71e8-4f4d-a245-1d95f4894786
+[I 04:52:07.227 NotebookApp] Adapting to protocol v5.1 for kernel fd9877c6-cf12-4588-a803-7f76a4b28029
+[W 04:54:29.366 NotebookApp] WebSocket ping timeout after 119899 ms.
+[W 04:54:40.296 NotebookApp] WebSocket ping timeout after 119872 ms.
+[I 06:26:47.599 NotebookApp] Saving file at /mxnet-notebooks/python/tutorials/mnist.ipynb
+[W 06:27:40.128 NotebookApp] Notebook mxnet-notebooks/python/tutorials/lstm-imdb.ipynb is not trusted
+[I 06:27:41.384 NotebookApp] Kernel started: 9b84d75a-c4de-4696-ad31-32eabad37c30
+[I 06:27:47.232 NotebookApp] Adapting to protocol v5.1 for kernel 9b84d75a-c4de-4696-ad31-32eabad37c30
+[I 06:28:16.356 NotebookApp] Saving file at /mxnet-notebooks/python/outline.ipynb
+[I 06:29:41.487 NotebookApp] Saving file at /mxnet-notebooks/python/tutorials/lstm-imdb.ipynb
+[I 06:33:41.594 NotebookApp] Saving file at /mxnet-notebooks/python/tutorials/lstm-imdb.ipynb
+[W 06:36:04.870 NotebookApp] No such file or directory: CyrusProjects/mxnet-notebooks/python/tutorials
+[W 06:36:04.871 NotebookApp] 404 GET /api/contents/CyrusProjects/mxnet-notebooks/python/tutorials?type=directory&_=1503497661183 (127.0.0.1) 1.41ms referer=http://localhost:9999/tree/CyrusProjects/mxnet-notebooks/python/tutorials
+[I 06:37:41.565 NotebookApp] Saving file at /mxnet-notebooks/python/tutorials/lstm-imdb.ipynb
+Collecting nltk
+  Downloading nltk-3.2.4.tar.gz (1.2MB)
+Requirement already satisfied: six in /usr/lib/python3/dist-packages (from nltk)
+Building wheels for collected packages: nltk
+  Running setup.py bdist_wheel for nltk: started
+  Running setup.py bdist_wheel for nltk: finished with status 'done'
+  Stored in directory: /home/ubuntu/.cache/pip/wheels/79/8b/2a/b2da7fce57a1fd9b20b08fa8800c83b6fde62af9e880722e29
+Successfully built nltk
+Installing collected packages: nltk
+Exception:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pip/basecommand.py", line 215, in main
+    status = self.run(options, args)
+  File "/usr/local/lib/python3.5/dist-packages/pip/commands/install.py", line 342, in run
+    prefix=options.prefix_path,
+  File "/usr/local/lib/python3.5/dist-packages/pip/req/req_set.py", line 784, in install
+    **kwargs
+  File "/usr/local/lib/python3.5/dist-packages/pip/req/req_install.py", line 851, in install
+    self.move_wheel_files(self.source_dir, root=root, prefix=prefix)
+  File "/usr/local/lib/python3.5/dist-packages/pip/req/req_install.py", line 1064, in move_wheel_files
+    isolated=self.isolated,
+  File "/usr/local/lib/python3.5/dist-packages/pip/wheel.py", line 345, in move_wheel_files
+    clobber(source, lib_dir, True)
+  File "/usr/local/lib/python3.5/dist-packages/pip/wheel.py", line 316, in clobber
+    ensure_dir(destdir)
+  File "/usr/local/lib/python3.5/dist-packages/pip/utils/__init__.py", line 83, in ensure_dir
+    os.makedirs(path)
+  File "/usr/lib/python3.5/os.py", line 241, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/usr/local/lib/python3.5/dist-packages/nltk'
+[W 06:39:41.434 NotebookApp] No such file or directory: mxnet-notebooks/python/tutorials/lstm-imdb.ipynb
+[W 06:39:41.434 NotebookApp] 404 GET /api/contents/mxnet-notebooks/python/tutorials/lstm-imdb.ipynb?content=0&_=1503556059746 (127.0.0.1) 1.36ms referer=http://localhost:9999/notebooks/mxnet-notebooks/python/tutorials/lstm-imdb.ipynb
+[I 06:39:41.577 NotebookApp] Uploading file to /mxnet-notebooks/python/tutorials/lstm-imdb.ipynb
+[E 06:39:41.583 NotebookApp] Error while saving file: mxnet-notebooks/python/tutorials/lstm-imdb.ipynb [Errno 2] No such file or directory: '/home/ubuntu/cyrusprojects/mxnet-notebooks/python/tutorials/lstm-imdb.ipynb'
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.5/dist-packages/notebook/services/contents/filemanager.py", line 422, in save
+        self._save_notebook(os_path, nb)
+      File "/usr/local/lib/python3.5/dist-packages/notebook/services/contents/fileio.py", line 293, in _save_notebook
+        with self.atomic_writing(os_path, encoding='utf-8') as f:
+      File "/usr/lib/python3.5/contextlib.py", line 59, in __enter__
+        return next(self.gen)
+      File "/usr/local/lib/python3.5/dist-packages/notebook/services/contents/fileio.py", line 213, in atomic_writing
+        with atomic_writing(os_path, *args, log=self.log, **kwargs) as f:
+      File "/usr/lib/python3.5/contextlib.py", line 59, in __enter__
+        return next(self.gen)
+      File "/usr/local/lib/python3.5/dist-packages/notebook/services/contents/fileio.py", line 108, in atomic_writing
+        fileobj = io.open(path, 'w', encoding=encoding, **kwargs)
+    FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/cyrusprojects/mxnet-notebooks/python/tutorials/lstm-imdb.ipynb'
+[W 06:39:41.586 NotebookApp] Unexpected error while saving file: mxnet-notebooks/python/tutorials/lstm-imdb.ipynb [Errno 2] No such file or directory: '/home/ubuntu/cyrusprojects/mxnet-notebooks/python/tutorials/lstm-imdb.ipynb'
+[E 06:39:41.587 NotebookApp] {
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:52.0) Gecko/20100101 Firefox/52.0",
+      "X-Requested-With": "XMLHttpRequest",
+      "Referer": "http://localhost:9999/notebooks/mxnet-notebooks/python/tutorials/lstm-imdb.ipynb",
+      "Proxy-Authorization": "Basic dXNlci11dWlkLTYyNDU4NmQ5OTYyYmJhOTU0ZDUyZGUwMTljZjU5ZGI3OjA1ZGNlODNmZTBiYQ==",
+      "Accept-Language": "en-US,en;q=0.5",
+      "Host": "localhost:9999",
+      "Content-Type": "application/json",
+      "Content-Length": "25693",
+      "Accept-Encoding": "gzip, deflate",
+      "X-Xsrftoken": "2|55990d76|7c318c22d9d9a10cd8a0710459b854e4|1501144686",
+      "Cookie": "username-localhost-9999=\"2|1:0|10:1503550181|23:username-localhost-9999|44:Y2EzNzg4MTc5MmJjNGZkMmEwY2Q0MmMwODNhNDEyMjg=|31df57b60cb2480e29e46a60c15d136c99a2760110240bb5ac38e67d18816a29\"; _xsrf=2|55990d76|7c318c22d9d9a10cd8a0710459b854e4|1501144686; username-localhost-8888=\"2|1:0|10:1501515684|23:username-localhost-8888|44:NDkxZTkzODNlMGYwNDgzZGJjNDZlMjkzM2MzZGMzNDQ=|b88eede03cbfded90cbac98922f857c0bf7a35ba3b89a2df0bc04aed4aa09365\"; username-localhost-8889=\"2|1:0|10:1501862775|23:username-localhost-8889|44:Y2E2NGY5MTE4YTFjNDNmNzhmOGMxYjJiNzVlNzJkYjk=|7376623068af7f467b74efa9de396c841d9bedeafd6ab5cc33553eb969421398\"",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Connection": "keep-alive"
+    }
+[E 06:39:41.587 NotebookApp] 500 PUT /api/contents/mxnet-notebooks/python/tutorials/lstm-imdb.ipynb (127.0.0.1) 51.38ms referer=http://localhost:9999/notebooks/mxnet-notebooks/python/tutorials/lstm-imdb.ipynb
+[W 06:39:53.319 NotebookApp] No such file or directory: mxnet-notebooks/python/tutorials/lstm-imdb.ipynb
+[W 06:39:53.320 NotebookApp] 404 GET /api/contents/mxnet-notebooks/python/tutorials/lstm-imdb.ipynb?content=0&_=1503556059747 (127.0.0.1) 1.35ms referer=http://localhost:9999/notebooks/mxnet-notebooks/python/tutorials/lstm-imdb.ipynb
+[W 06:39:53.450 NotebookApp] No such file or directory: mxnet-notebooks/python/tutorials
+[W 06:39:53.450 NotebookApp] 404 GET /api/contents/mxnet-notebooks/python/tutorials?type=directory&_=1503556049908 (127.0.0.1) 0.98ms referer=http://localhost:9999/tree/mxnet-notebooks/python/tutorials
+[W 06:39:57.444 NotebookApp] 404 GET /tree/mxnet-notebooks/python/tutorials (127.0.0.1) 8.07ms referer=http://localhost:9999/tree/mxnet-notebooks/python/tutorials
+[W 06:40:15.587 NotebookApp] 404 GET /tree/mxnet-notebooks/python/tutorials (127.0.0.1) 1.60ms referer=None
+[I 06:40:22.875 NotebookApp] 302 GET / (127.0.0.1) 0.61ms
+[W 06:40:22.931 NotebookApp] 404 GET /tree? (127.0.0.1) 1.52ms referer=None
+[W 06:40:38.887 NotebookApp] 404 GET /tree (127.0.0.1) 1.58ms referer=None
+[W 06:42:19.448 NotebookApp] 404 GET /tree (127.0.0.1) 1.61ms referer=None
+[W 06:42:23.852 NotebookApp] 404 GET /tree (127.0.0.1) 1.62ms referer=http://localhost:9999/tree
+[C 06:43:14.709 NotebookApp] received signal 15, stopping
+[I 06:43:14.710 NotebookApp] Shutting down kernels
+[C 06:43:18.741 NotebookApp] received signal 15, stopping
+[I 06:43:19.725 NotebookApp] Kernel shutdown: fd9877c6-cf12-4588-a803-7f76a4b28029
+[I 06:43:19.725 NotebookApp] Kernel shutdown: 662d3677-71e8-4f4d-a245-1d95f4894786
+[I 06:43:24.742 NotebookApp] Kernel shutdown: 9b84d75a-c4de-4696-ad31-32eabad37c30
