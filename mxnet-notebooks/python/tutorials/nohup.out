@@ -1,0 +1,620 @@
+[I 15:00:00.955 NotebookApp] Serving notebooks from local directory: /home/ubuntu/CyrusProjects/mxnet-notebooks/python/tutorials
+[I 15:00:00.955 NotebookApp] 0 active kernels 
+[I 15:00:00.955 NotebookApp] The Jupyter Notebook is running at: http://localhost:8888/?token=3241f8fea8f76415825a291b539bfc361ba6dfe21ad46a1b
+[I 15:00:00.955 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 15:00:00.955 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=3241f8fea8f76415825a291b539bfc361ba6dfe21ad46a1b
+[I 15:00:08.059 NotebookApp] Interrupted...
+[I 15:00:08.060 NotebookApp] Shutting down kernels
+[I 15:00:19.214 NotebookApp] Serving notebooks from local directory: /home/ubuntu/CyrusProjects/mxnet-notebooks/python/tutorials
+[I 15:00:19.214 NotebookApp] 0 active kernels 
+[I 15:00:19.214 NotebookApp] The Jupyter Notebook is running at: http://localhost:8888/?token=6287d14455bdc75a60f49261b117ad9e6887cf2a2890d5b5
+[I 15:00:19.214 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 15:00:19.214 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=6287d14455bdc75a60f49261b117ad9e6887cf2a2890d5b5
+[C 15:01:25.743 NotebookApp] received signal 15, stopping
+[I 15:01:25.744 NotebookApp] Shutting down kernels
+[I 15:06:12.788 NotebookApp] Serving notebooks from local directory: /home/ubuntu/CyrusProjects/mxnet-notebooks/python/tutorials
+[I 15:06:12.788 NotebookApp] 0 active kernels 
+[I 15:06:12.788 NotebookApp] The Jupyter Notebook is running at: http://localhost:8888/?token=3f34d7c9f67b4f843467e1b08e2776be67d3dfef5dfac3e2
+[I 15:06:12.788 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 15:06:12.788 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=3f34d7c9f67b4f843467e1b08e2776be67d3dfef5dfac3e2
+[I 15:06:38.770 NotebookApp] 302 GET /?token=3f34d7c9f67b4f843467e1b08e2776be67d3dfef5dfac3e2 (127.0.0.1) 0.55ms
+[W 15:08:27.017 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js (127.0.0.1) 6.02ms referer=http://localhost:9999/notebooks/lstm-imdb.ipynb
+[I 15:08:27.876 NotebookApp] Kernel started: bdd415f4-2a96-47fb-839d-0b783d2ffb94
+[I 15:08:28.445 NotebookApp] Adapting to protocol v5.1 for kernel bdd415f4-2a96-47fb-839d-0b783d2ffb94
+Requirement already satisfied: nltk in ./mxnet_venv/lib/python3.4/site-packages
+Requirement already satisfied: six in ./mxnet_venv/lib/python3.4/site-packages (from nltk)
+Requirement already satisfied: nltk in ./mxnet_venv/lib/python3.4/site-packages
+Requirement already satisfied: six in ./mxnet_venv/lib/python3.4/site-packages (from nltk)
+[I 15:10:27.943 NotebookApp] Saving file at /lstm-imdb.ipynb
+[I 15:16:27.956 NotebookApp] Saving file at /lstm-imdb.ipynb
+[I 15:18:27.974 NotebookApp] Saving file at /lstm-imdb.ipynb
+[I 15:20:27.982 NotebookApp] Saving file at /lstm-imdb.ipynb
+[I 15:26:28.025 NotebookApp] Saving file at /lstm-imdb.ipynb
+[I 15:28:28.034 NotebookApp] Saving file at /lstm-imdb.ipynb
+[I 15:30:22.551 NotebookApp] Saving file at /lstm-imdb.ipynb
+[I 15:32:28.009 NotebookApp] Saving file at /lstm-imdb.ipynb
+[I 15:34:36.865 NotebookApp] Saving file at /lstm-imdb.ipynb
+[W 15:37:28.447 NotebookApp] WebSocket ping timeout after 119962 ms.
+[I 10:11:49.989 NotebookApp] Adapting to protocol v5.1 for kernel bdd415f4-2a96-47fb-839d-0b783d2ffb94
+[I 10:12:03.015 NotebookApp] Saving file at /lstm-imdb.ipynb
+[I 10:14:02.985 NotebookApp] Saving file at /lstm-imdb.ipynb
+[I 10:16:02.986 NotebookApp] Saving file at /lstm-imdb.ipynb
+[I 10:18:02.998 NotebookApp] Saving file at /lstm-imdb.ipynb
+[I 10:20:03.145 NotebookApp] Saving file at /lstm-imdb.ipynb
+[I 10:22:03.047 NotebookApp] Saving file at /lstm-imdb.ipynb
+[I 10:24:03.034 NotebookApp] Saving file at /lstm-imdb.ipynb
+[I 10:26:03.022 NotebookApp] Saving file at /lstm-imdb.ipynb
+[I 10:28:03.196 NotebookApp] Saving file at /lstm-imdb.ipynb
+[I 10:30:03.193 NotebookApp] Saving file at /lstm-imdb.ipynb
+[I 10:32:03.034 NotebookApp] Saving file at /lstm-imdb.ipynb
+[I 10:34:03.036 NotebookApp] Saving file at /lstm-imdb.ipynb
+[I 10:36:03.120 NotebookApp] Saving file at /lstm-imdb.ipynb
+[I 10:38:03.074 NotebookApp] Saving file at /lstm-imdb.ipynb
+[W 17:23:49.991 NotebookApp] WebSocket ping timeout after 119934 ms.
+[W 08:38:11.288 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js (127.0.0.1) 1.37ms referer=http://localhost:9999/notebooks/lstm-imdb.ipynb
+[I 08:38:12.870 NotebookApp] Adapting to protocol v5.1 for kernel bdd415f4-2a96-47fb-839d-0b783d2ffb94
+[W 08:39:33.638 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js (127.0.0.1) 1.31ms referer=http://localhost:9999/notebooks/char_lstm.ipynb
+[I 08:39:34.403 NotebookApp] Kernel started: cef5246e-90fd-47ca-9e12-b4c342276f36
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 151, in _run_module_as_main
+    mod_name, loader, code, fname = _get_module_details(mod_name)
+  File "/usr/lib/python2.7/runpy.py", line 109, in _get_module_details
+    return _get_module_details(pkg_main_name)
+  File "/usr/lib/python2.7/runpy.py", line 101, in _get_module_details
+    loader = get_loader(mod_name)
+  File "/usr/lib/python2.7/pkgutil.py", line 464, in get_loader
+    return find_loader(fullname)
+  File "/usr/lib/python2.7/pkgutil.py", line 474, in find_loader
+    for importer in iter_importers(fullname):
+  File "/usr/lib/python2.7/pkgutil.py", line 430, in iter_importers
+    __import__(pkg)
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/__init__.py", line 2, in <module>
+    from .connect import *
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/connect.py", line 13, in <module>
+    from IPython.core.profiledir import ProfileDir
+  File "/usr/local/lib/python2.7/dist-packages/IPython/__init__.py", line 48, in <module>
+    from .core.application import Application
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/application.py", line 25, in <module>
+    from IPython.core import release, crashhandler
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/crashhandler.py", line 28, in <module>
+    from IPython.core import ultratb
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/ultratb.py", line 119, in <module>
+    from IPython.core import debugger
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/debugger.py", line 37, in <module>
+    from IPython.utils import PyColorize, ulinecache
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/ulinecache.py", line 11, in <module>
+    from IPython.utils import openpy
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/openpy.py", line 9, in <module>
+    import io
+  File "io.py", line 10, in <module>
+    from ..io import DataIter, DataBatch, DataDesc
+ValueError: Attempted relative import in non-package
+[I 08:39:37.403 NotebookApp] KernelRestarter: restarting kernel (1/5)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 151, in _run_module_as_main
+    mod_name, loader, code, fname = _get_module_details(mod_name)
+  File "/usr/lib/python2.7/runpy.py", line 109, in _get_module_details
+    return _get_module_details(pkg_main_name)
+  File "/usr/lib/python2.7/runpy.py", line 101, in _get_module_details
+    loader = get_loader(mod_name)
+  File "/usr/lib/python2.7/pkgutil.py", line 464, in get_loader
+    return find_loader(fullname)
+  File "/usr/lib/python2.7/pkgutil.py", line 474, in find_loader
+    for importer in iter_importers(fullname):
+  File "/usr/lib/python2.7/pkgutil.py", line 430, in iter_importers
+    __import__(pkg)
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/__init__.py", line 2, in <module>
+    from .connect import *
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/connect.py", line 13, in <module>
+    from IPython.core.profiledir import ProfileDir
+  File "/usr/local/lib/python2.7/dist-packages/IPython/__init__.py", line 48, in <module>
+    from .core.application import Application
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/application.py", line 25, in <module>
+    from IPython.core import release, crashhandler
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/crashhandler.py", line 28, in <module>
+    from IPython.core import ultratb
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/ultratb.py", line 119, in <module>
+    from IPython.core import debugger
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/debugger.py", line 37, in <module>
+    from IPython.utils import PyColorize, ulinecache
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/ulinecache.py", line 11, in <module>
+    from IPython.utils import openpy
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/openpy.py", line 9, in <module>
+    import io
+  File "io.py", line 10, in <module>
+    from ..io import DataIter, DataBatch, DataDesc
+ValueError: Attempted relative import in non-package
+[I 08:39:40.406 NotebookApp] KernelRestarter: restarting kernel (2/5)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 151, in _run_module_as_main
+    mod_name, loader, code, fname = _get_module_details(mod_name)
+  File "/usr/lib/python2.7/runpy.py", line 109, in _get_module_details
+    return _get_module_details(pkg_main_name)
+  File "/usr/lib/python2.7/runpy.py", line 101, in _get_module_details
+    loader = get_loader(mod_name)
+  File "/usr/lib/python2.7/pkgutil.py", line 464, in get_loader
+    return find_loader(fullname)
+  File "/usr/lib/python2.7/pkgutil.py", line 474, in find_loader
+    for importer in iter_importers(fullname):
+  File "/usr/lib/python2.7/pkgutil.py", line 430, in iter_importers
+    __import__(pkg)
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/__init__.py", line 2, in <module>
+    from .connect import *
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/connect.py", line 13, in <module>
+    from IPython.core.profiledir import ProfileDir
+  File "/usr/local/lib/python2.7/dist-packages/IPython/__init__.py", line 48, in <module>
+    from .core.application import Application
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/application.py", line 25, in <module>
+    from IPython.core import release, crashhandler
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/crashhandler.py", line 28, in <module>
+    from IPython.core import ultratb
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/ultratb.py", line 119, in <module>
+    from IPython.core import debugger
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/debugger.py", line 37, in <module>
+    from IPython.utils import PyColorize, ulinecache
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/ulinecache.py", line 11, in <module>
+    from IPython.utils import openpy
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/openpy.py", line 9, in <module>
+    import io
+  File "io.py", line 10, in <module>
+    from ..io import DataIter, DataBatch, DataDesc
+ValueError: Attempted relative import in non-package
+[I 08:39:43.410 NotebookApp] KernelRestarter: restarting kernel (3/5)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 151, in _run_module_as_main
+    mod_name, loader, code, fname = _get_module_details(mod_name)
+  File "/usr/lib/python2.7/runpy.py", line 109, in _get_module_details
+    return _get_module_details(pkg_main_name)
+  File "/usr/lib/python2.7/runpy.py", line 101, in _get_module_details
+    loader = get_loader(mod_name)
+  File "/usr/lib/python2.7/pkgutil.py", line 464, in get_loader
+    return find_loader(fullname)
+  File "/usr/lib/python2.7/pkgutil.py", line 474, in find_loader
+    for importer in iter_importers(fullname):
+  File "/usr/lib/python2.7/pkgutil.py", line 430, in iter_importers
+    __import__(pkg)
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/__init__.py", line 2, in <module>
+    from .connect import *
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/connect.py", line 13, in <module>
+    from IPython.core.profiledir import ProfileDir
+  File "/usr/local/lib/python2.7/dist-packages/IPython/__init__.py", line 48, in <module>
+    from .core.application import Application
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/application.py", line 25, in <module>
+    from IPython.core import release, crashhandler
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/crashhandler.py", line 28, in <module>
+    from IPython.core import ultratb
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/ultratb.py", line 119, in <module>
+    from IPython.core import debugger
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/debugger.py", line 37, in <module>
+    from IPython.utils import PyColorize, ulinecache
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/ulinecache.py", line 11, in <module>
+    from IPython.utils import openpy
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/openpy.py", line 9, in <module>
+    import io
+  File "io.py", line 10, in <module>
+    from ..io import DataIter, DataBatch, DataDesc
+ValueError: Attempted relative import in non-package
+[W 08:39:44.573 NotebookApp] Timeout waiting for kernel_info reply from cef5246e-90fd-47ca-9e12-b4c342276f36
+[I 08:39:46.414 NotebookApp] KernelRestarter: restarting kernel (4/5)
+WARNING:root:kernel cef5246e-90fd-47ca-9e12-b4c342276f36 restarted
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 151, in _run_module_as_main
+    mod_name, loader, code, fname = _get_module_details(mod_name)
+  File "/usr/lib/python2.7/runpy.py", line 109, in _get_module_details
+    return _get_module_details(pkg_main_name)
+  File "/usr/lib/python2.7/runpy.py", line 101, in _get_module_details
+    loader = get_loader(mod_name)
+  File "/usr/lib/python2.7/pkgutil.py", line 464, in get_loader
+    return find_loader(fullname)
+  File "/usr/lib/python2.7/pkgutil.py", line 474, in find_loader
+    for importer in iter_importers(fullname):
+  File "/usr/lib/python2.7/pkgutil.py", line 430, in iter_importers
+    __import__(pkg)
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/__init__.py", line 2, in <module>
+    from .connect import *
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/connect.py", line 13, in <module>
+    from IPython.core.profiledir import ProfileDir
+  File "/usr/local/lib/python2.7/dist-packages/IPython/__init__.py", line 48, in <module>
+    from .core.application import Application
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/application.py", line 25, in <module>
+    from IPython.core import release, crashhandler
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/crashhandler.py", line 28, in <module>
+    from IPython.core import ultratb
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/ultratb.py", line 119, in <module>
+    from IPython.core import debugger
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/debugger.py", line 37, in <module>
+    from IPython.utils import PyColorize, ulinecache
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/ulinecache.py", line 11, in <module>
+    from IPython.utils import openpy
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/openpy.py", line 9, in <module>
+    import io
+  File "io.py", line 10, in <module>
+    from ..io import DataIter, DataBatch, DataDesc
+ValueError: Attempted relative import in non-package
+[W 08:39:49.417 NotebookApp] KernelRestarter: restart failed
+[W 08:39:49.418 NotebookApp] Kernel cef5246e-90fd-47ca-9e12-b4c342276f36 died, removing from map.
+ERROR:root:kernel cef5246e-90fd-47ca-9e12-b4c342276f36 restarted failed!
+[W 08:39:49.606 NotebookApp] Kernel deleted before session
+[W 08:39:49.606 NotebookApp] 410 DELETE /api/sessions/bdfdd040-a535-4fc9-8d3c-8cad8baf6d46 (127.0.0.1) 1.59ms referer=http://localhost:9999/notebooks/char_lstm.ipynb
+[W 08:39:50.935 NotebookApp] Session not found: session_id='bdfdd040-a535-4fc9-8d3c-8cad8baf6d46'
+[W 08:39:50.936 NotebookApp] 404 DELETE /api/sessions/bdfdd040-a535-4fc9-8d3c-8cad8baf6d46 (127.0.0.1) 1.34ms referer=http://localhost:9999/notebooks/char_lstm.ipynb
+[I 08:39:51.019 NotebookApp] Kernel started: a2f0f18f-f03f-4b6c-bdae-c9c1af7c9848
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 151, in _run_module_as_main
+    mod_name, loader, code, fname = _get_module_details(mod_name)
+  File "/usr/lib/python2.7/runpy.py", line 109, in _get_module_details
+    return _get_module_details(pkg_main_name)
+  File "/usr/lib/python2.7/runpy.py", line 101, in _get_module_details
+    loader = get_loader(mod_name)
+  File "/usr/lib/python2.7/pkgutil.py", line 464, in get_loader
+    return find_loader(fullname)
+  File "/usr/lib/python2.7/pkgutil.py", line 474, in find_loader
+    for importer in iter_importers(fullname):
+  File "/usr/lib/python2.7/pkgutil.py", line 430, in iter_importers
+    __import__(pkg)
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/__init__.py", line 2, in <module>
+    from .connect import *
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/connect.py", line 13, in <module>
+    from IPython.core.profiledir import ProfileDir
+  File "/usr/local/lib/python2.7/dist-packages/IPython/__init__.py", line 48, in <module>
+    from .core.application import Application
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/application.py", line 25, in <module>
+    from IPython.core import release, crashhandler
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/crashhandler.py", line 28, in <module>
+    from IPython.core import ultratb
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/ultratb.py", line 119, in <module>
+    from IPython.core import debugger
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/debugger.py", line 37, in <module>
+    from IPython.utils import PyColorize, ulinecache
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/ulinecache.py", line 11, in <module>
+    from IPython.utils import openpy
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/openpy.py", line 9, in <module>
+    import io
+  File "io.py", line 10, in <module>
+    from ..io import DataIter, DataBatch, DataDesc
+ValueError: Attempted relative import in non-package
+[I 08:39:54.020 NotebookApp] KernelRestarter: restarting kernel (1/5)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 151, in _run_module_as_main
+    mod_name, loader, code, fname = _get_module_details(mod_name)
+  File "/usr/lib/python2.7/runpy.py", line 109, in _get_module_details
+    return _get_module_details(pkg_main_name)
+  File "/usr/lib/python2.7/runpy.py", line 101, in _get_module_details
+    loader = get_loader(mod_name)
+  File "/usr/lib/python2.7/pkgutil.py", line 464, in get_loader
+    return find_loader(fullname)
+  File "/usr/lib/python2.7/pkgutil.py", line 474, in find_loader
+    for importer in iter_importers(fullname):
+  File "/usr/lib/python2.7/pkgutil.py", line 430, in iter_importers
+    __import__(pkg)
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/__init__.py", line 2, in <module>
+    from .connect import *
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/connect.py", line 13, in <module>
+    from IPython.core.profiledir import ProfileDir
+  File "/usr/local/lib/python2.7/dist-packages/IPython/__init__.py", line 48, in <module>
+    from .core.application import Application
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/application.py", line 25, in <module>
+    from IPython.core import release, crashhandler
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/crashhandler.py", line 28, in <module>
+    from IPython.core import ultratb
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/ultratb.py", line 119, in <module>
+    from IPython.core import debugger
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/debugger.py", line 37, in <module>
+    from IPython.utils import PyColorize, ulinecache
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/ulinecache.py", line 11, in <module>
+    from IPython.utils import openpy
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/openpy.py", line 9, in <module>
+    import io
+  File "io.py", line 10, in <module>
+    from ..io import DataIter, DataBatch, DataDesc
+ValueError: Attempted relative import in non-package
+[I 08:39:57.025 NotebookApp] KernelRestarter: restarting kernel (2/5)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 151, in _run_module_as_main
+    mod_name, loader, code, fname = _get_module_details(mod_name)
+  File "/usr/lib/python2.7/runpy.py", line 109, in _get_module_details
+    return _get_module_details(pkg_main_name)
+  File "/usr/lib/python2.7/runpy.py", line 101, in _get_module_details
+    loader = get_loader(mod_name)
+  File "/usr/lib/python2.7/pkgutil.py", line 464, in get_loader
+    return find_loader(fullname)
+  File "/usr/lib/python2.7/pkgutil.py", line 474, in find_loader
+    for importer in iter_importers(fullname):
+  File "/usr/lib/python2.7/pkgutil.py", line 430, in iter_importers
+    __import__(pkg)
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/__init__.py", line 2, in <module>
+    from .connect import *
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/connect.py", line 13, in <module>
+    from IPython.core.profiledir import ProfileDir
+  File "/usr/local/lib/python2.7/dist-packages/IPython/__init__.py", line 48, in <module>
+    from .core.application import Application
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/application.py", line 25, in <module>
+    from IPython.core import release, crashhandler
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/crashhandler.py", line 28, in <module>
+    from IPython.core import ultratb
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/ultratb.py", line 119, in <module>
+    from IPython.core import debugger
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/debugger.py", line 37, in <module>
+    from IPython.utils import PyColorize, ulinecache
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/ulinecache.py", line 11, in <module>
+    from IPython.utils import openpy
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/openpy.py", line 9, in <module>
+    import io
+  File "io.py", line 10, in <module>
+    from ..io import DataIter, DataBatch, DataDesc
+ValueError: Attempted relative import in non-package
+[I 08:40:00.030 NotebookApp] KernelRestarter: restarting kernel (3/5)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 151, in _run_module_as_main
+    mod_name, loader, code, fname = _get_module_details(mod_name)
+  File "/usr/lib/python2.7/runpy.py", line 109, in _get_module_details
+    return _get_module_details(pkg_main_name)
+  File "/usr/lib/python2.7/runpy.py", line 101, in _get_module_details
+    loader = get_loader(mod_name)
+  File "/usr/lib/python2.7/pkgutil.py", line 464, in get_loader
+    return find_loader(fullname)
+  File "/usr/lib/python2.7/pkgutil.py", line 474, in find_loader
+    for importer in iter_importers(fullname):
+  File "/usr/lib/python2.7/pkgutil.py", line 430, in iter_importers
+    __import__(pkg)
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/__init__.py", line 2, in <module>
+    from .connect import *
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/connect.py", line 13, in <module>
+    from IPython.core.profiledir import ProfileDir
+  File "/usr/local/lib/python2.7/dist-packages/IPython/__init__.py", line 48, in <module>
+    from .core.application import Application
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/application.py", line 25, in <module>
+    from IPython.core import release, crashhandler
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/crashhandler.py", line 28, in <module>
+    from IPython.core import ultratb
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/ultratb.py", line 119, in <module>
+    from IPython.core import debugger
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/debugger.py", line 37, in <module>
+    from IPython.utils import PyColorize, ulinecache
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/ulinecache.py", line 11, in <module>
+    from IPython.utils import openpy
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/openpy.py", line 9, in <module>
+    import io
+  File "io.py", line 10, in <module>
+    from ..io import DataIter, DataBatch, DataDesc
+ValueError: Attempted relative import in non-package
+[W 08:40:01.149 NotebookApp] Timeout waiting for kernel_info reply from a2f0f18f-f03f-4b6c-bdae-c9c1af7c9848
+[I 08:40:03.035 NotebookApp] KernelRestarter: restarting kernel (4/5)
+WARNING:root:kernel a2f0f18f-f03f-4b6c-bdae-c9c1af7c9848 restarted
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 151, in _run_module_as_main
+    mod_name, loader, code, fname = _get_module_details(mod_name)
+  File "/usr/lib/python2.7/runpy.py", line 109, in _get_module_details
+    return _get_module_details(pkg_main_name)
+  File "/usr/lib/python2.7/runpy.py", line 101, in _get_module_details
+    loader = get_loader(mod_name)
+  File "/usr/lib/python2.7/pkgutil.py", line 464, in get_loader
+    return find_loader(fullname)
+  File "/usr/lib/python2.7/pkgutil.py", line 474, in find_loader
+    for importer in iter_importers(fullname):
+  File "/usr/lib/python2.7/pkgutil.py", line 430, in iter_importers
+    __import__(pkg)
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/__init__.py", line 2, in <module>
+    from .connect import *
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/connect.py", line 13, in <module>
+    from IPython.core.profiledir import ProfileDir
+  File "/usr/local/lib/python2.7/dist-packages/IPython/__init__.py", line 48, in <module>
+    from .core.application import Application
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/application.py", line 25, in <module>
+    from IPython.core import release, crashhandler
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/crashhandler.py", line 28, in <module>
+    from IPython.core import ultratb
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/ultratb.py", line 119, in <module>
+    from IPython.core import debugger
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/debugger.py", line 37, in <module>
+    from IPython.utils import PyColorize, ulinecache
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/ulinecache.py", line 11, in <module>
+    from IPython.utils import openpy
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/openpy.py", line 9, in <module>
+    import io
+  File "io.py", line 10, in <module>
+    from ..io import DataIter, DataBatch, DataDesc
+ValueError: Attempted relative import in non-package
+[W 08:40:06.039 NotebookApp] KernelRestarter: restart failed
+[W 08:40:06.039 NotebookApp] Kernel a2f0f18f-f03f-4b6c-bdae-c9c1af7c9848 died, removing from map.
+[I 08:40:12.550 NotebookApp] Saving file at /lstm-imdb.ipynb
+[W 08:48:19.091 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js (127.0.0.1) 1.35ms referer=http://localhost:9999/notebooks/char_lstm.ipynb
+[I 08:48:19.939 NotebookApp] Kernel started: f703e0e3-9fd4-46ef-875c-ecf195cca9c8
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 151, in _run_module_as_main
+    mod_name, loader, code, fname = _get_module_details(mod_name)
+  File "/usr/lib/python2.7/runpy.py", line 109, in _get_module_details
+    return _get_module_details(pkg_main_name)
+  File "/usr/lib/python2.7/runpy.py", line 101, in _get_module_details
+    loader = get_loader(mod_name)
+  File "/usr/lib/python2.7/pkgutil.py", line 464, in get_loader
+    return find_loader(fullname)
+  File "/usr/lib/python2.7/pkgutil.py", line 474, in find_loader
+    for importer in iter_importers(fullname):
+  File "/usr/lib/python2.7/pkgutil.py", line 430, in iter_importers
+    __import__(pkg)
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/__init__.py", line 2, in <module>
+    from .connect import *
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/connect.py", line 13, in <module>
+    from IPython.core.profiledir import ProfileDir
+  File "/usr/local/lib/python2.7/dist-packages/IPython/__init__.py", line 48, in <module>
+    from .core.application import Application
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/application.py", line 25, in <module>
+    from IPython.core import release, crashhandler
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/crashhandler.py", line 28, in <module>
+    from IPython.core import ultratb
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/ultratb.py", line 119, in <module>
+    from IPython.core import debugger
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/debugger.py", line 37, in <module>
+    from IPython.utils import PyColorize, ulinecache
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/ulinecache.py", line 11, in <module>
+    from IPython.utils import openpy
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/openpy.py", line 9, in <module>
+    import io
+  File "io.py", line 10, in <module>
+    from ..io import DataIter, DataBatch, DataDesc
+ValueError: Attempted relative import in non-package
+[I 08:48:22.939 NotebookApp] KernelRestarter: restarting kernel (1/5)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 151, in _run_module_as_main
+    mod_name, loader, code, fname = _get_module_details(mod_name)
+  File "/usr/lib/python2.7/runpy.py", line 109, in _get_module_details
+    return _get_module_details(pkg_main_name)
+  File "/usr/lib/python2.7/runpy.py", line 101, in _get_module_details
+    loader = get_loader(mod_name)
+  File "/usr/lib/python2.7/pkgutil.py", line 464, in get_loader
+    return find_loader(fullname)
+  File "/usr/lib/python2.7/pkgutil.py", line 474, in find_loader
+    for importer in iter_importers(fullname):
+  File "/usr/lib/python2.7/pkgutil.py", line 430, in iter_importers
+    __import__(pkg)
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/__init__.py", line 2, in <module>
+    from .connect import *
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/connect.py", line 13, in <module>
+    from IPython.core.profiledir import ProfileDir
+  File "/usr/local/lib/python2.7/dist-packages/IPython/__init__.py", line 48, in <module>
+    from .core.application import Application
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/application.py", line 25, in <module>
+    from IPython.core import release, crashhandler
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/crashhandler.py", line 28, in <module>
+    from IPython.core import ultratb
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/ultratb.py", line 119, in <module>
+    from IPython.core import debugger
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/debugger.py", line 37, in <module>
+    from IPython.utils import PyColorize, ulinecache
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/ulinecache.py", line 11, in <module>
+    from IPython.utils import openpy
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/openpy.py", line 9, in <module>
+    import io
+  File "io.py", line 10, in <module>
+    from ..io import DataIter, DataBatch, DataDesc
+ValueError: Attempted relative import in non-package
+[I 08:48:25.943 NotebookApp] KernelRestarter: restarting kernel (2/5)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 151, in _run_module_as_main
+    mod_name, loader, code, fname = _get_module_details(mod_name)
+  File "/usr/lib/python2.7/runpy.py", line 109, in _get_module_details
+    return _get_module_details(pkg_main_name)
+  File "/usr/lib/python2.7/runpy.py", line 101, in _get_module_details
+    loader = get_loader(mod_name)
+  File "/usr/lib/python2.7/pkgutil.py", line 464, in get_loader
+    return find_loader(fullname)
+  File "/usr/lib/python2.7/pkgutil.py", line 474, in find_loader
+    for importer in iter_importers(fullname):
+  File "/usr/lib/python2.7/pkgutil.py", line 430, in iter_importers
+    __import__(pkg)
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/__init__.py", line 2, in <module>
+    from .connect import *
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/connect.py", line 13, in <module>
+    from IPython.core.profiledir import ProfileDir
+  File "/usr/local/lib/python2.7/dist-packages/IPython/__init__.py", line 48, in <module>
+    from .core.application import Application
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/application.py", line 25, in <module>
+    from IPython.core import release, crashhandler
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/crashhandler.py", line 28, in <module>
+    from IPython.core import ultratb
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/ultratb.py", line 119, in <module>
+    from IPython.core import debugger
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/debugger.py", line 37, in <module>
+    from IPython.utils import PyColorize, ulinecache
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/ulinecache.py", line 11, in <module>
+    from IPython.utils import openpy
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/openpy.py", line 9, in <module>
+    import io
+  File "io.py", line 10, in <module>
+    from ..io import DataIter, DataBatch, DataDesc
+ValueError: Attempted relative import in non-package
+[I 08:48:28.947 NotebookApp] KernelRestarter: restarting kernel (3/5)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 151, in _run_module_as_main
+    mod_name, loader, code, fname = _get_module_details(mod_name)
+  File "/usr/lib/python2.7/runpy.py", line 109, in _get_module_details
+    return _get_module_details(pkg_main_name)
+  File "/usr/lib/python2.7/runpy.py", line 101, in _get_module_details
+    loader = get_loader(mod_name)
+  File "/usr/lib/python2.7/pkgutil.py", line 464, in get_loader
+    return find_loader(fullname)
+  File "/usr/lib/python2.7/pkgutil.py", line 474, in find_loader
+    for importer in iter_importers(fullname):
+  File "/usr/lib/python2.7/pkgutil.py", line 430, in iter_importers
+    __import__(pkg)
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/__init__.py", line 2, in <module>
+    from .connect import *
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/connect.py", line 13, in <module>
+    from IPython.core.profiledir import ProfileDir
+  File "/usr/local/lib/python2.7/dist-packages/IPython/__init__.py", line 48, in <module>
+    from .core.application import Application
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/application.py", line 25, in <module>
+    from IPython.core import release, crashhandler
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/crashhandler.py", line 28, in <module>
+    from IPython.core import ultratb
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/ultratb.py", line 119, in <module>
+    from IPython.core import debugger
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/debugger.py", line 37, in <module>
+    from IPython.utils import PyColorize, ulinecache
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/ulinecache.py", line 11, in <module>
+    from IPython.utils import openpy
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/openpy.py", line 9, in <module>
+    import io
+  File "io.py", line 10, in <module>
+    from ..io import DataIter, DataBatch, DataDesc
+ValueError: Attempted relative import in non-package
+[W 08:48:30.239 NotebookApp] Timeout waiting for kernel_info reply from f703e0e3-9fd4-46ef-875c-ecf195cca9c8
+[I 08:48:31.952 NotebookApp] KernelRestarter: restarting kernel (4/5)
+WARNING:root:kernel f703e0e3-9fd4-46ef-875c-ecf195cca9c8 restarted
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 151, in _run_module_as_main
+    mod_name, loader, code, fname = _get_module_details(mod_name)
+  File "/usr/lib/python2.7/runpy.py", line 109, in _get_module_details
+    return _get_module_details(pkg_main_name)
+  File "/usr/lib/python2.7/runpy.py", line 101, in _get_module_details
+    loader = get_loader(mod_name)
+  File "/usr/lib/python2.7/pkgutil.py", line 464, in get_loader
+    return find_loader(fullname)
+  File "/usr/lib/python2.7/pkgutil.py", line 474, in find_loader
+    for importer in iter_importers(fullname):
+  File "/usr/lib/python2.7/pkgutil.py", line 430, in iter_importers
+    __import__(pkg)
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/__init__.py", line 2, in <module>
+    from .connect import *
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/connect.py", line 13, in <module>
+    from IPython.core.profiledir import ProfileDir
+  File "/usr/local/lib/python2.7/dist-packages/IPython/__init__.py", line 48, in <module>
+    from .core.application import Application
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/application.py", line 25, in <module>
+    from IPython.core import release, crashhandler
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/crashhandler.py", line 28, in <module>
+    from IPython.core import ultratb
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/ultratb.py", line 119, in <module>
+    from IPython.core import debugger
+  File "/usr/local/lib/python2.7/dist-packages/IPython/core/debugger.py", line 37, in <module>
+    from IPython.utils import PyColorize, ulinecache
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/ulinecache.py", line 11, in <module>
+    from IPython.utils import openpy
+  File "/usr/local/lib/python2.7/dist-packages/IPython/utils/openpy.py", line 9, in <module>
+    import io
+  File "io.py", line 10, in <module>
+    from ..io import DataIter, DataBatch, DataDesc
+ValueError: Attempted relative import in non-package
+[W 08:48:34.957 NotebookApp] KernelRestarter: restart failed
+[W 08:48:34.957 NotebookApp] Kernel f703e0e3-9fd4-46ef-875c-ecf195cca9c8 died, removing from map.
+ERROR:root:kernel f703e0e3-9fd4-46ef-875c-ecf195cca9c8 restarted failed!
+[W 08:48:35.092 NotebookApp] Kernel deleted before session
+[W 08:48:35.093 NotebookApp] 410 DELETE /api/sessions/c49f2e03-13c7-41eb-93a1-c02297971911 (127.0.0.1) 1.51ms referer=http://localhost:9999/notebooks/char_lstm.ipynb
+[I 08:50:12.630 NotebookApp] Saving file at /lstm-imdb.ipynb
+[E 08:55:12.634 NotebookApp] Kernel info request failed, assuming current {}
+[E 09:00:49.055 NotebookApp] Kernel info request failed, assuming current {}
+[I 10:12:12.847 NotebookApp] Saving file at /lstm-imdb.ipynb
+[E 10:29:51.404 NotebookApp] Kernel info request failed, assuming current {}
